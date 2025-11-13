@@ -4,12 +4,12 @@ public class Basics {
     public void displayArray() {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        int[] nums = new int[size];
+        int[] array = new int[size];
 
         for(int i = 0; i<size; i++) {
-            nums[i] = sc.nextInt();    
+            array[i] = sc.nextInt();    
         }
-        for(int num: nums) {
+        for(int num: array) {
             System.out.println(num);
         }
     }
